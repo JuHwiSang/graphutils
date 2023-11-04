@@ -1,0 +1,15 @@
+[project]
+name = "graphutils"
+version = "0.0.1"
+description = "Graph utilities based on matplotlib"
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
